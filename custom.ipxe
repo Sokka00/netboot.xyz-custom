@@ -24,8 +24,7 @@ initrd http://192.168.1.27/initrd
 boot || goto custom_exit
 
 :option_two
-kernel https://192.168.1.27/linux26
-initrd http://192.168.1.27/initrd
+initrd http://192.168.1.27/efi.img
 boot || goto custom_exit
 
 :option_three
